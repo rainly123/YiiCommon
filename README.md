@@ -27,4 +27,4 @@ mysql配置：Common\config\main-local下
 
 1.你只需要到backend\config\params-local.php下面去配置即可
 
-2.你可以通过实例化QueryApi来使用coreseek全文搜索引擎，关于搜索引擎，我们希望做的更强大！欢迎假如有猿网（ http://www.5151jh.com  ） 讨论
+2.你可以通过实例化QueryApi来使用coreseek全文搜索引擎，关于搜索引擎，我们希望做的更强大！欢迎假如有猿网（ http://www.5151jh.com  ） 发帖讨论，或添加qq：1064576015交流
