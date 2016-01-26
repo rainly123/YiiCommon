@@ -8913,3 +8913,213 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1453370998.244
     'REQUEST_TIME' => 1453370998
 ]
+2016-01-23 04:07:21 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 B:\phpProject\yiicommon\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2016-01-23 04:07:21 [::1][-][-][info][application] $_COOKIE = [
+    'f04a_2132_saltkey' => 'oTME63pz'
+    'f04a_2132_lastvisit' => '1453356127'
+    'f04a_2132_ulastactivity' => 'db8ebRnKnr1fKO5D5JhAV3/QSj5ErbKENvMX34HYsJNsYlBh9nxU'
+    '_csrf' => 'cabc90029e55210a781be4baa78197982a76f81c15b4292b47589779f0d4e9ads:32:\"iPIXqJHT5qidAOgcehPNHkTClRT9X4V_\";'
+    'PHPSESSID' => '7umc92kqn7ptfn35rdthtvrg44'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => '4u4u7i'
+    '__captcha/site/captchacount' => 1
+    '__captcha/public/captcha' => '6i0o'
+    '__captcha/public/captchacount' => 1
+    'user_auth' => [
+        'id' => '1'
+        'username' => 'admin'
+        'password' => '2cdc554c6af27094df66d9a64c90a856'
+        'email' => '10645760151@qq.com'
+        'mobile' => ''
+        'reg_time' => '1446705468'
+        'reg_ip' => '0'
+        'last_login_time' => '1448068434'
+        'last_login_ip' => '0'
+        'update_time' => '1446705468'
+        'is_check' => '0'
+        'status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8084/backend/web/css/style.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'f04a_2132_saltkey=oTME63pz; f04a_2132_lastvisit=1453356127; f04a_2132_ulastactivity=db8ebRnKnr1fKO5D5JhAV3%2FQSj5ErbKENvMX34HYsJNsYlBh9nxU; _csrf=cabc90029e55210a781be4baa78197982a76f81c15b4292b47589779f0d4e9ads%3A32%3A%22iPIXqJHT5qidAOgcehPNHkTClRT9X4V_%22%3B; PHPSESSID=7umc92kqn7ptfn35rdthtvrg44'
+    'PATH' => 'D:\\java\\bin；C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;C:\\Program Files\\TortoiseGit\\bin;F:\\nodejs\\;F:\\nodejs\\node_modules;D:\\wamp\\bin\\php\\php5.5.12;D:\\jdk\\lib;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'B:/phpProject/yiicommon/backend/web/index.php'
+    'REMOTE_PORT' => '50209'
+    'REDIRECT_URL' => '/backend/web/images/bg/bg.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/images/bg/bg.png'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1453518441.067
+    'REQUEST_TIME' => 1453518441
+]
+2016-01-23 04:54:59 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 B:\phpProject\yiicommon\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2016-01-23 04:54:59 [::1][-][-][info][application] $_COOKIE = [
+    'f04a_2132_saltkey' => 'oTME63pz'
+    'f04a_2132_lastvisit' => '1453356127'
+    'f04a_2132_ulastactivity' => 'db8ebRnKnr1fKO5D5JhAV3/QSj5ErbKENvMX34HYsJNsYlBh9nxU'
+    '_csrf' => 'cabc90029e55210a781be4baa78197982a76f81c15b4292b47589779f0d4e9ads:32:\"iPIXqJHT5qidAOgcehPNHkTClRT9X4V_\";'
+    'PHPSESSID' => '7umc92kqn7ptfn35rdthtvrg44'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => '4u4u7i'
+    '__captcha/site/captchacount' => 1
+    '__captcha/public/captcha' => '6i0o'
+    '__captcha/public/captchacount' => 1
+    'user_auth' => [
+        'id' => '1'
+        'username' => 'admin'
+        'password' => '2cdc554c6af27094df66d9a64c90a856'
+        'email' => '10645760151@qq.com'
+        'mobile' => ''
+        'reg_time' => '1446705468'
+        'reg_ip' => '0'
+        'last_login_time' => '1448068434'
+        'last_login_ip' => '0'
+        'update_time' => '1446705468'
+        'is_check' => '0'
+        'status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8084/backend/web/css/style.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'f04a_2132_saltkey=oTME63pz; f04a_2132_lastvisit=1453356127; f04a_2132_ulastactivity=db8ebRnKnr1fKO5D5JhAV3%2FQSj5ErbKENvMX34HYsJNsYlBh9nxU; _csrf=cabc90029e55210a781be4baa78197982a76f81c15b4292b47589779f0d4e9ads%3A32%3A%22iPIXqJHT5qidAOgcehPNHkTClRT9X4V_%22%3B; PHPSESSID=7umc92kqn7ptfn35rdthtvrg44'
+    'PATH' => 'D:\\java\\bin；C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;C:\\Program Files\\TortoiseGit\\bin;F:\\nodejs\\;F:\\nodejs\\node_modules;D:\\wamp\\bin\\php\\php5.5.12;D:\\jdk\\lib;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'B:/phpProject/yiicommon/backend/web/index.php'
+    'REMOTE_PORT' => '52193'
+    'REDIRECT_URL' => '/backend/web/images/bg/bg.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/images/bg/bg.png'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1453521299.187
+    'REQUEST_TIME' => 1453521299
+]
+2016-01-25 03:05:56 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 B:\phpProject\yiicommon\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2016-01-25 03:05:56 [::1][-][-][info][application] $_COOKIE = [
+    'f04a_2132_saltkey' => 'oTME63pz'
+    'f04a_2132_lastvisit' => '1453356127'
+    'f04a_2132_ulastactivity' => 'db8ebRnKnr1fKO5D5JhAV3/QSj5ErbKENvMX34HYsJNsYlBh9nxU'
+    'PHPSESSID' => 's81r7fca9fvco3e0g0aqmnhp14'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8084/backend/web/css/style.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'f04a_2132_saltkey=oTME63pz; f04a_2132_lastvisit=1453356127; f04a_2132_ulastactivity=db8ebRnKnr1fKO5D5JhAV3%2FQSj5ErbKENvMX34HYsJNsYlBh9nxU; PHPSESSID=s81r7fca9fvco3e0g0aqmnhp14'
+    'PATH' => 'D:\\java\\bin；C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;C:\\Program Files\\TortoiseGit\\bin;F:\\nodejs\\;F:\\nodejs\\node_modules;D:\\wamp\\bin\\php\\php5.5.12;D:\\jdk\\lib;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'B:/phpProject/yiicommon/backend/web/index.php'
+    'REMOTE_PORT' => '49589'
+    'REDIRECT_URL' => '/backend/web/images/bg/bg.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/images/bg/bg.png'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1453687556.448
+    'REQUEST_TIME' => 1453687556
+]

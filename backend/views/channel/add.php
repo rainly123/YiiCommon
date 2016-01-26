@@ -5,6 +5,7 @@
  * Date: 2015/12/15
  * Time: 9:57
  */
+$this->title=isset($info['id'])?'编辑导航':'新增导航';
 ?>
 <?php $this->beginBlock('content'); ?>
     <div class="main-title">

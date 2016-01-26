@@ -1,7 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df3bc1c7-8125-4deb-b645-3e2af67e12b0" name="Default" comment="" />
+    <list default="true" id="df3bc1c7-8125-4deb-b645-3e2af67e12b0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/models/LeCacheDB.php" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\api\web\assets\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a087026f9c6.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0870885257.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0870939956.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0870def4fe.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0870e33a0c.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a08712a0f7a.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a08712e6435.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0871468d8d.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a087150ffa1.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a08716a7311.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0871847ac1.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a08719e23a1.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0871adb46e.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0871c262f8.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0ae6c9e916.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0ae6d0f3b1.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0ae6ec2dc5.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0ae6f99228.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0ae7403ade.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0ae7449208.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0ae75d4f77.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0ae764ea4c.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0ae77622ce.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0ae78e233b.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0af7077968.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0af71c1e69.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0af73461c7.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0af7d86184.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0af7ead9e5.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0af8d2f996.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0afb43e096.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0afb5ac2c9.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0afb6eeddb.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0afbf8e289.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0b022eccd5.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0b024d298e.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0b02e86624.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0b03e53cb4.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0b03fbe882.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0b0438c322.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0b046b56be.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0b0485a982.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0b04a081d8.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\runtime\debug\56a0b051493d3.data" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\backend\web\assets\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="B:\phpProject\yiicommon\frontend\web\assets\.gitignore" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/views/channel/add.php" afterPath="$PROJECT_DIR$/backend/views/channel/add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/runtime/logs/app.log" afterPath="$PROJECT_DIR$/backend/runtime/logs/app.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/views/menu/edit.php" afterPath="$PROJECT_DIR$/backend/views/menu/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/runtime/debug/index.data" afterPath="$PROJECT_DIR$/backend/runtime/debug/index.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/views/channel/index.php" afterPath="$PROJECT_DIR$/backend/views/channel/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/views/menu/index.php" afterPath="$PROJECT_DIR$/backend/views/menu/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="yiicommon.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,21 +81,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main-local.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/config/main-local.php">
+      <file leaf-file-name="MemCache.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/caching/MemCache.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.235294" vertical-offset="90" max-vertical-offset="675">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state vertical-scroll-proportion="-8.735294" vertical-offset="6278" max-vertical-offset="8575">
+              <caret line="267" column="5" selection-start-line="267" selection-start-column="5" selection-end-line="267" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="params-local.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/config/params-local.php">
+      <file leaf-file-name="LeCacheDB.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/system/models/LeCacheDB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5726496" vertical-offset="1140" max-vertical-offset="1725">
-              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.51282054" vertical-offset="0" max-vertical-offset="585">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -47,16 +103,12 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backend/controllers/PictureController.php" />
-        <option value="$PROJECT_DIR$/system/models/LePictureDB.php" />
-        <option value="$PROJECT_DIR$/backend/views/picture/image.php" />
-        <option value="$PROJECT_DIR$/backend/views/database/index.php" />
-        <option value="$PROJECT_DIR$/common/help/function.php" />
-        <option value="$PROJECT_DIR$/common/help/CommonHelper.php" />
-        <option value="$PROJECT_DIR$/system/models/LeConfigDB.php" />
         <option value="$PROJECT_DIR$/system/models/Database.php" />
         <option value="$PROJECT_DIR$/system/models/DatabaseDB.php" />
         <option value="$PROJECT_DIR$/backend/controllers/DatabaseController.php" />
@@ -101,6 +153,13 @@
         <option value="$PROJECT_DIR$/menu/models/LeMenuDB.php" />
         <option value="$PROJECT_DIR$/member/models/LeAuthRuleDB.php" />
         <option value="$PROJECT_DIR$/backend/views/users/chat.php" />
+        <option value="$PROJECT_DIR$/common/config/main-local.php" />
+        <option value="$PROJECT_DIR$/backend/views/channel/index.php" />
+        <option value="$PROJECT_DIR$/backend/views/channel/add.php" />
+        <option value="$PROJECT_DIR$/backend/views/menu/index.php" />
+        <option value="$PROJECT_DIR$/backend/views/menu/edit.php" />
+        <option value="$PROJECT_DIR$/system/models/LeCacheDB.html" />
+        <option value="$PROJECT_DIR$/system/models/LeCacheDB.php" />
       </list>
     </option>
   </component>
@@ -165,6 +224,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiicommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiicommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiicommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiicommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="backend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -183,7 +274,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="runtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiicommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiicommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="runtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="debug" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -197,6 +310,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistoryKey" value="mem&#9;FILE&#9;file://B:/phpProject/yiicommon/vendor/yiisoft/yii2/caching/MemCache.php&#10;file&#9;FILE&#9;file://B:/phpProject/yiicommon/vendor/yiisoft/yii2/caching/FileCache.php&#10;apc&#9;null&#9;null" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -213,9 +327,6 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -223,6 +334,9 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -242,7 +356,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -250,19 +364,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24597365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24597365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -286,120 +400,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/extensions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3846154" vertical-offset="225" max-vertical-offset="1875">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2-sphinx/ActiveRecord.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8356644" vertical-offset="1050" max-vertical-offset="16250">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2-sphinx/gii/model/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3846154" vertical-offset="0" max-vertical-offset="585">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2-sphinx/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6940559" vertical-offset="403" max-vertical-offset="1600">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2-sphinx/Schema.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30594406" vertical-offset="1800" max-vertical-offset="13450">
-          <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/Driver/Local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.25641027" vertical-offset="150" max-vertical-offset="2850">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2-sphinx/test.php.bak2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6365105" vertical-offset="2581" max-vertical-offset="4325">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/web/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35314685" vertical-offset="773" max-vertical-offset="34450">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.923077" vertical-offset="6848" max-vertical-offset="16475">
-          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2-sphinx/test_coreseek.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17094018" vertical-offset="0" max-vertical-offset="585">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2-sphinx/sphinxapi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9877622" vertical-offset="20485" max-vertical-offset="40775">
-          <caret line="842" column="5" selection-start-line="842" selection-start-column="5" selection-end-line="842" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2-sphinx/Query.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0052447" vertical-offset="675" max-vertical-offset="14000">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2-sphinx/QueryApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0588236" vertical-offset="1178" max-vertical-offset="2625">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2-sphinx/Connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.7534964" vertical-offset="1725" max-vertical-offset="3750">
-          <caret line="136" column="47" selection-start-line="136" selection-start-column="47" selection-end-line="136" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2-sphinx/ActiveQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.441176" vertical-offset="1200" max-vertical-offset="7300">
-          <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/LoginForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0594406" vertical-offset="1800" max-vertical-offset="3950">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/views/article/edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39335665" vertical-offset="6975" max-vertical-offset="8900">
@@ -593,7 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.090468496" vertical-offset="4319" max-vertical-offset="7275">
           <caret line="175" column="12" selection-start-line="175" selection-start-column="12" selection-end-line="175" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -601,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25201938" vertical-offset="4119" max-vertical-offset="9275">
           <caret line="171" column="9" selection-start-line="171" selection-start-column="9" selection-end-line="171" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.7097902" vertical-offset="600" max-vertical-offset="3100">
           <caret line="88" column="53" selection-start-line="88" selection-start-column="53" selection-end-line="88" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2136753" vertical-offset="3515" max-vertical-offset="5475">
           <caret line="172" column="10" selection-start-line="172" selection-start-column="10" selection-end-line="172" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2940171" vertical-offset="1228" max-vertical-offset="2225">
           <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,22 +628,133 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2820513" vertical-offset="0" max-vertical-offset="1725">
           <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/config/main-local.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.235294" vertical-offset="90" max-vertical-offset="675">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding />
+        <state vertical-scroll-proportion="0.52991456" vertical-offset="15" max-vertical-offset="600">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/models/LePictureDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.352941" vertical-offset="375" max-vertical-offset="9700">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/Driver/Qiniu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4117646" vertical-offset="975" max-vertical-offset="2500">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/Driver/Local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.058823" vertical-offset="900" max-vertical-offset="2850">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/Driver/Ftp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.9411764" vertical-offset="1575" max-vertical-offset="4050">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/help/Upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.558824" vertical-offset="3698" max-vertical-offset="10425">
+          <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/Driver/Upyun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="5425">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/config/params-local.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5726496" vertical-offset="1140" max-vertical-offset="1725">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.74358976" vertical-offset="1065" max-vertical-offset="1725">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/channel/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13111888" vertical-offset="0" max-vertical-offset="1500">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/channel/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30594406" vertical-offset="0" max-vertical-offset="2150">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/menu/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6555944" vertical-offset="100" max-vertical-offset="2150">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/menu/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="3400">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35314685" vertical-offset="2123" max-vertical-offset="16900">
+          <caret line="97" column="6" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47008547" vertical-offset="525" max-vertical-offset="3050">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/menu/sort.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.043706294" vertical-offset="375" max-vertical-offset="3000">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/help/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.6713285" vertical-offset="3" max-vertical-offset="15450">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/caching/MemCache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.735294" vertical-offset="6278" max-vertical-offset="8575">
+          <caret line="267" column="5" selection-start-line="267" selection-start-column="5" selection-end-line="267" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/models/LeCacheDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51282054" vertical-offset="0" max-vertical-offset="585">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>

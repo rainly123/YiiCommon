@@ -5,6 +5,7 @@
  * Date: 2015/12/13
  * Time: 10:58
  */
+$this->title=isset($info)?'编辑后台菜单':'新增后台菜单';
 ?>
 <?php $this->beginBlock('content'); ?>
     <div class="main-title">

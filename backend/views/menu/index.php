@@ -6,6 +6,7 @@ use common\help\HTMLHelper;
  * Date: 2015/12/11
  * Time: 17:40
  */
+$this->title='菜单管理';
 ?>
 <?php $this->beginBlock('content'); ?>
     <div class="main-title">

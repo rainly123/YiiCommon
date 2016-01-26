@@ -6,6 +6,7 @@ use common\help\HTMLHelper;
  * Date: 2015/12/15
  * Time: 9:19
  */
+$this->title='导航管理';
 ?>
 <?php $this->beginBlock('content'); ?>
     <div class="main-title">
