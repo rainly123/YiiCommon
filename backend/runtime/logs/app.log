@@ -9123,3 +9123,95 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1453687556.448
     'REQUEST_TIME' => 1453687556
 ]
+2016-01-27 03:27:38 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 B:\phpProject\yiicommon\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2016-01-27 03:27:38 [::1][-][-][info][application] $_COOKIE = [
+    'f04a_2132_saltkey' => 'oTME63pz'
+    'f04a_2132_lastvisit' => '1453356127'
+    'f04a_2132_ulastactivity' => 'db8ebRnKnr1fKO5D5JhAV3/QSj5ErbKENvMX34HYsJNsYlBh9nxU'
+    'PHPSESSID' => '37ue84bscin8fbp42mriqdpj85'
+]
+
+$_SESSION = [
+    'ser_touser' => '2'
+    'ser_fromuser' => '%'
+    'ser_createuser' => '%'
+    'ser_month' => '01'
+    'ser_year' => '2016'
+    'ser_tkprt' => ''
+    'ser_level' => ''
+    'ser_tktype' => ''
+    'ser_project' => ''
+    'ser_logmonth' => '01'
+    'ser_logyear' => '2016'
+    'ser_logday' => ''
+    'MM_Username' => 'juzi'
+    'MM_UserGroup' => ''
+    'MM_Displayname' => 'juzi'
+    'MM_uid' => '2'
+    'MM_rank' => '3'
+    'MM_msg' => '1'
+    'ser_status' => '未开始'
+    '__flash' => []
+    '__captcha/public/captcha' => '1i8e'
+    '__captcha/public/captchacount' => 1
+    'user_auth' => [
+        'id' => '1'
+        'username' => 'admin'
+        'password' => '2cdc554c6af27094df66d9a64c90a856'
+        'email' => '10645760151@qq.com'
+        'mobile' => ''
+        'reg_time' => '1446705468'
+        'reg_ip' => '0'
+        'last_login_time' => '1448068434'
+        'last_login_ip' => '0'
+        'update_time' => '1446705468'
+        'is_check' => '0'
+        'status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8084/backend/web/css/style.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'f04a_2132_saltkey=oTME63pz; f04a_2132_lastvisit=1453356127; f04a_2132_ulastactivity=db8ebRnKnr1fKO5D5JhAV3%2FQSj5ErbKENvMX34HYsJNsYlBh9nxU; PHPSESSID=37ue84bscin8fbp42mriqdpj85'
+    'PATH' => 'D:\\java\\bin；C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;C:\\Program Files\\TortoiseGit\\bin;F:\\nodejs\\;F:\\nodejs\\node_modules;D:\\wamp\\bin\\php\\php5.5.12;D:\\jdk\\lib;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'B:/phpProject/yiicommon/backend/web/index.php'
+    'REMOTE_PORT' => '52228'
+    'REDIRECT_URL' => '/backend/web/images/bg/bg.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/images/bg/bg.png'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1453861658.455
+    'REQUEST_TIME' => 1453861658
+]

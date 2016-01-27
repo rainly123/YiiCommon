@@ -14,3 +14,5 @@ Yii::$container->set('M_LeAction','system\models\LeActionDB');
 Yii::$container->set('M_LeActionLog','system\models\LeActionLogDB');
 
 Yii::$container->set('M_LePictureTypeDB','system\models\LePictureTypeDB');
+
+Yii::$container->set('M_LeCache','system\models\LeCacheDB');
