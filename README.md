@@ -1,6 +1,6 @@
 # YiiCommon
                
-			   https://github.com/rainly123/YiiCmmon/yii.png
+			  ![image](https://github.com/rainly123/YiiCmmon/yii.png)
 			  
    Yii2.0通用后台，功能包含用户管理，文档管理，权限管理，即使通讯，图片库管理...等web网站通用模块，提供了很多方便易用的通用方法
 希望有兴趣的朋友继续完善！
