@@ -29,8 +29,7 @@ class CommonHelper
      }
     /**
      * @param $key
-     * @return mixed
-     * 获取session值
+     * @return 获取session值
      */
     static function getSession($key)
     {

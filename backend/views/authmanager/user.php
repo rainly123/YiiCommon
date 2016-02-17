@@ -16,7 +16,6 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="tab-wrap">
         <ul class="tab-nav nav">
             <li><a href="<?=U('authmanager/access?group_name='.$_GET['group_name'].'&group_id='.$_GET['group_id'].'')?>">访问授权</a></li>
-            <li><a href="{:U('AuthManager/category',array('group_name'=>I('group_name') ,'group_id'=> I('group_id')))}">分类授权</a></li>
             <li class="current"><a href="javascript:;">成员授权</a></li>
             <li class="fr">
                 <select name="group">

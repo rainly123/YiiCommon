@@ -44,7 +44,6 @@ $this->params['breadcrumbs'][] = $this->title;
                     <td><a href="<?=Yii::$app->homeUrl.'authmanager/editgroup?id='.$val['id']?>"><?=$val['title']?></a> </td>
                     <td><span><?=$val['description']?></span></td>
                     <td><a href="<?=Yii::$app->homeUrl.'authmanager/access?group_name='.$val['title'].'&group_id='.$val['id']?>" >访问授权</a>
-                        <a href="{:U('AuthManager/category?group_name='.$vo['title'].'&group_id='.$vo['id'])}" >分类授权</a>
                         <a href="<?=Yii::$app->homeUrl.'authmanager/user?group_name='.$val['title'].'&group_id='.$val['id']?>" >成员授权</a>
                     </td>
                     <td><?=$val['status_text']?></td>

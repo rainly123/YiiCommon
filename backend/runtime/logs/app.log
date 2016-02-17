@@ -9215,3 +9215,874 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1453861658.455
     'REQUEST_TIME' => 1453861658
 ]
+2016-01-28 09:09:07 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 B:\phpProject\yiicommon\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2016-01-28 09:09:07 [::1][-][-][info][application] $_COOKIE = [
+    'f04a_2132_saltkey' => 'oTME63pz'
+    'f04a_2132_lastvisit' => '1453356127'
+    'f04a_2132_ulastactivity' => 'db8ebRnKnr1fKO5D5JhAV3/QSj5ErbKENvMX34HYsJNsYlBh9nxU'
+    'PHPSESSID' => 'msilt989klcqpml6iu7j6n90t0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/public/captcha' => 'oa8o'
+    '__captcha/public/captchacount' => 1
+    'user_auth' => [
+        'id' => '1'
+        'username' => 'admin'
+        'password' => '2cdc554c6af27094df66d9a64c90a856'
+        'email' => '10645760151@qq.com'
+        'mobile' => ''
+        'reg_time' => '1446705468'
+        'reg_ip' => '0'
+        'last_login_time' => '1448068434'
+        'last_login_ip' => '0'
+        'update_time' => '1446705468'
+        'is_check' => '0'
+        'status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8084/backend/web/css/style.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'f04a_2132_saltkey=oTME63pz; f04a_2132_lastvisit=1453356127; f04a_2132_ulastactivity=db8ebRnKnr1fKO5D5JhAV3%2FQSj5ErbKENvMX34HYsJNsYlBh9nxU; PHPSESSID=msilt989klcqpml6iu7j6n90t0'
+    'PATH' => 'D:\\java\\bin锛汣:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;C:\\Program Files\\TortoiseGit\\bin;F:\\nodejs\\;F:\\nodejs\\node_modules;D:\\wamp\\bin\\php\\php5.5.12;D:\\jdk\\lib;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'B:/phpProject/yiicommon/backend/web/index.php'
+    'REMOTE_PORT' => '57618'
+    'REDIRECT_URL' => '/backend/web/images/bg/bg.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/images/bg/bg.png'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1453968547.415
+    'REQUEST_TIME' => 1453968547
+]
+2016-02-03 10:36:26 [::1][-][-][warning][yii\db\Connection::openFromPool] Connection (dsn for slave server 3) failed: invalid data source name
+    in B:\phpProject\yiicommon\common\models\LoginForm.php:71
+    in B:\phpProject\yiicommon\backend\controllers\PublicController.php:39
+2016-02-03 10:36:26 [::1][-][-][warning][yii\db\Connection::openFromPool] Connection (dsn for slave server 2) failed: invalid data source name
+    in B:\phpProject\yiicommon\common\models\LoginForm.php:71
+    in B:\phpProject\yiicommon\backend\controllers\PublicController.php:39
+2016-02-03 10:36:26 [::1][-][-][warning][yii\db\Connection::openFromPool] Connection (dsn for slave server 4) failed: invalid data source name
+    in B:\phpProject\yiicommon\common\models\LoginForm.php:71
+    in B:\phpProject\yiicommon\backend\controllers\PublicController.php:39
+2016-02-03 10:36:26 [::1][-][-][warning][yii\db\Connection::openFromPool] Connection (dsn for slave server 1) failed: invalid data source name
+    in B:\phpProject\yiicommon\common\models\LoginForm.php:71
+    in B:\phpProject\yiicommon\backend\controllers\PublicController.php:39
+2016-02-03 10:36:26 [::1][-][-][info][application] $_POST = [
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => 'sadamu'
+        'verifyCode' => '3e9e'
+    ]
+]
+
+$_COOKIE = [
+    'f04a_2132_saltkey' => 'oTME63pz'
+    'f04a_2132_lastvisit' => '1453356127'
+    'f04a_2132_ulastactivity' => 'db8ebRnKnr1fKO5D5JhAV3/QSj5ErbKENvMX34HYsJNsYlBh9nxU'
+    'PHPSESSID' => 'pf9l468iteok1p7q5b5dkefub6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/public/captcha' => '9e11'
+    '__captcha/public/captchacount' => 1
+    'user_auth' => [
+        'id' => '1'
+        'username' => 'admin'
+        'password' => '2cdc554c6af27094df66d9a64c90a856'
+        'email' => '10645760151@qq.com'
+        'mobile' => ''
+        'reg_time' => '1446705468'
+        'reg_ip' => '0'
+        'last_login_time' => '1448068434'
+        'last_login_ip' => '0'
+        'update_time' => '1446705468'
+        'is_check' => '0'
+        'status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '91'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8084'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8084/backend/web/public/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'f04a_2132_saltkey=oTME63pz; f04a_2132_lastvisit=1453356127; f04a_2132_ulastactivity=db8ebRnKnr1fKO5D5JhAV3%2FQSj5ErbKENvMX34HYsJNsYlBh9nxU; PHPSESSID=pf9l468iteok1p7q5b5dkefub6'
+    'PATH' => 'D:\\java\\bin锛汣:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;C:\\Program Files\\TortoiseGit\\bin;F:\\nodejs\\;F:\\nodejs\\node_modules;D:\\wamp\\bin\\php\\php5.5.12;D:\\jdk\\lib;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'B:/phpProject/yiicommon/backend/web/index.php'
+    'REMOTE_PORT' => '49778'
+    'REDIRECT_URL' => '/backend/web/public/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/public/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1454492186.391
+    'REQUEST_TIME' => 1454492186
+]
+2016-02-03 10:36:32 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 B:\phpProject\yiicommon\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2016-02-03 10:36:32 [::1][-][-][info][application] $_COOKIE = [
+    'f04a_2132_saltkey' => 'oTME63pz'
+    'f04a_2132_lastvisit' => '1453356127'
+    'f04a_2132_ulastactivity' => 'db8ebRnKnr1fKO5D5JhAV3/QSj5ErbKENvMX34HYsJNsYlBh9nxU'
+    'PHPSESSID' => 'pf9l468iteok1p7q5b5dkefub6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/public/captcha' => '9e11'
+    '__captcha/public/captchacount' => 1
+    'user_auth' => [
+        'id' => '1'
+        'username' => 'admin'
+        'password' => '2cdc554c6af27094df66d9a64c90a856'
+        'email' => '10645760151@qq.com'
+        'mobile' => ''
+        'reg_time' => '1446705468'
+        'reg_ip' => '0'
+        'last_login_time' => '1448068434'
+        'last_login_ip' => '0'
+        'update_time' => '1446705468'
+        'is_check' => '0'
+        'status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8084/backend/web/css/style.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'f04a_2132_saltkey=oTME63pz; f04a_2132_lastvisit=1453356127; f04a_2132_ulastactivity=db8ebRnKnr1fKO5D5JhAV3%2FQSj5ErbKENvMX34HYsJNsYlBh9nxU; PHPSESSID=pf9l468iteok1p7q5b5dkefub6'
+    'PATH' => 'D:\\java\\bin锛汣:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;C:\\Program Files\\TortoiseGit\\bin;F:\\nodejs\\;F:\\nodejs\\node_modules;D:\\wamp\\bin\\php\\php5.5.12;D:\\jdk\\lib;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'B:/phpProject/yiicommon/backend/web/index.php'
+    'REMOTE_PORT' => '49788'
+    'REDIRECT_URL' => '/backend/web/images/bg/bg.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/images/bg/bg.png'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1454492192.316
+    'REQUEST_TIME' => 1454492192
+]
+2016-02-03 10:40:24 [::1][-][-][warning][yii\db\Connection::openFromPool] Connection (mysql:host=101.200.228.85;dbname=lexue) failed: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+    in B:\phpProject\yiicommon\common\help\DBHelper.php:26
+    in B:\phpProject\yiicommon\member\models\LeUcenterMemberDB.php:46
+    in B:\phpProject\yiicommon\member\logic\LgLeMember.php:20
+2016-02-03 10:40:22 [::1][-][-][info][application] $_COOKIE = [
+    'f04a_2132_saltkey' => 'oTME63pz'
+    'f04a_2132_lastvisit' => '1453356127'
+    'f04a_2132_ulastactivity' => 'db8ebRnKnr1fKO5D5JhAV3/QSj5ErbKENvMX34HYsJNsYlBh9nxU'
+    'PHPSESSID' => 'pf9l468iteok1p7q5b5dkefub6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/public/captcha' => '9e11'
+    '__captcha/public/captchacount' => 1
+    'user_auth' => [
+        'id' => '1'
+        'username' => 'admin'
+        'password' => '2cdc554c6af27094df66d9a64c90a856'
+        'email' => '10645760151@qq.com'
+        'mobile' => ''
+        'reg_time' => '1446705468'
+        'reg_ip' => '0'
+        'last_login_time' => '1448068434'
+        'last_login_ip' => '0'
+        'update_time' => '1446705468'
+        'is_check' => '0'
+        'status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8084/backend/web/article/examine'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'f04a_2132_saltkey=oTME63pz; f04a_2132_lastvisit=1453356127; f04a_2132_ulastactivity=db8ebRnKnr1fKO5D5JhAV3%2FQSj5ErbKENvMX34HYsJNsYlBh9nxU; PHPSESSID=pf9l468iteok1p7q5b5dkefub6'
+    'PATH' => 'D:\\java\\bin锛汣:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;C:\\Program Files\\TortoiseGit\\bin;F:\\nodejs\\;F:\\nodejs\\node_modules;D:\\wamp\\bin\\php\\php5.5.12;D:\\jdk\\lib;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'B:/phpProject/yiicommon/backend/web/index.php'
+    'REMOTE_PORT' => '49816'
+    'REDIRECT_URL' => '/backend/web/users/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/users/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1454492422.212
+    'REQUEST_TIME' => 1454492422
+]
+2016-02-17 02:13:53 [::1][-][-][warning][yii\db\Connection::openFromPool] Connection (mysql:host=101.200.228.85;dbname=lexue) failed: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+    in B:\phpProject\yiicommon\common\models\LoginForm.php:71
+    in B:\phpProject\yiicommon\backend\controllers\PublicController.php:39
+2016-02-17 02:13:51 [::1][-][-][info][application] $_POST = [
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => 'sadamu'
+        'verifyCode' => '2876'
+    ]
+]
+
+$_COOKIE = [
+    'f04a_2132_saltkey' => 'oTME63pz'
+    'f04a_2132_lastvisit' => '1453356127'
+    'f04a_2132_ulastactivity' => 'db8ebRnKnr1fKO5D5JhAV3/QSj5ErbKENvMX34HYsJNsYlBh9nxU'
+    'PHPSESSID' => 'vusurba6u1ju9lu1g5fe56mcv5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/public/captcha' => '1i2a'
+    '__captcha/public/captchacount' => 1
+    'user_auth' => [
+        'id' => '1'
+        'username' => 'admin'
+        'password' => '2cdc554c6af27094df66d9a64c90a856'
+        'email' => '10645760151@qq.com'
+        'mobile' => ''
+        'reg_time' => '1446705468'
+        'reg_ip' => '0'
+        'last_login_time' => '1448068434'
+        'last_login_ip' => '0'
+        'update_time' => '1446705468'
+        'is_check' => '0'
+        'status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '91'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8084'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8084/backend/web/public/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'f04a_2132_saltkey=oTME63pz; f04a_2132_lastvisit=1453356127; f04a_2132_ulastactivity=db8ebRnKnr1fKO5D5JhAV3%2FQSj5ErbKENvMX34HYsJNsYlBh9nxU; PHPSESSID=vusurba6u1ju9lu1g5fe56mcv5'
+    'PATH' => 'D:\\java\\bin锛汣:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;C:\\Program Files\\TortoiseGit\\bin;F:\\nodejs\\;F:\\nodejs\\node_modules;D:\\wamp\\bin\\php\\php5.5.12;D:\\jdk\\lib;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'B:/phpProject/yiicommon/backend/web/index.php'
+    'REMOTE_PORT' => '50362'
+    'REDIRECT_URL' => '/backend/web/public/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/public/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455671631.613
+    'REQUEST_TIME' => 1455671631
+]
+2016-02-17 02:13:57 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 B:\phpProject\yiicommon\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2016-02-17 02:13:57 [::1][-][-][info][application] $_COOKIE = [
+    'f04a_2132_saltkey' => 'oTME63pz'
+    'f04a_2132_lastvisit' => '1453356127'
+    'f04a_2132_ulastactivity' => 'db8ebRnKnr1fKO5D5JhAV3/QSj5ErbKENvMX34HYsJNsYlBh9nxU'
+    'PHPSESSID' => 'vusurba6u1ju9lu1g5fe56mcv5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/public/captcha' => '1i2a'
+    '__captcha/public/captchacount' => 1
+    'user_auth' => [
+        'id' => '1'
+        'username' => 'admin'
+        'password' => '2cdc554c6af27094df66d9a64c90a856'
+        'email' => '10645760151@qq.com'
+        'mobile' => ''
+        'reg_time' => '1446705468'
+        'reg_ip' => '0'
+        'last_login_time' => '1448068434'
+        'last_login_ip' => '0'
+        'update_time' => '1446705468'
+        'is_check' => '0'
+        'status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8084/backend/web/css/style.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'f04a_2132_saltkey=oTME63pz; f04a_2132_lastvisit=1453356127; f04a_2132_ulastactivity=db8ebRnKnr1fKO5D5JhAV3%2FQSj5ErbKENvMX34HYsJNsYlBh9nxU; PHPSESSID=vusurba6u1ju9lu1g5fe56mcv5'
+    'PATH' => 'D:\\java\\bin锛汣:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;C:\\Program Files\\TortoiseGit\\bin;F:\\nodejs\\;F:\\nodejs\\node_modules;D:\\wamp\\bin\\php\\php5.5.12;D:\\jdk\\lib;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'B:/phpProject/yiicommon/backend/web/index.php'
+    'REMOTE_PORT' => '50372'
+    'REDIRECT_URL' => '/backend/web/images/bg/bg.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/images/bg/bg.png'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455671637.197
+    'REQUEST_TIME' => 1455671637
+]
+2016-02-17 06:53:39 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiicommon.le_Member' doesn't exist' in B:\phpProject\yiicommon\vendor\yiisoft\yii2\db\Command.php:768
+Stack trace:
+#0 B:\phpProject\yiicommon\vendor\yiisoft\yii2\db\Command.php(768): PDOStatement->execute()
+#1 B:\phpProject\yiicommon\common\help\DBHelper.php(183): yii\db\Command->execute()
+#2 B:\phpProject\yiicommon\system\models\LeActionDB.php(236): common\help\DBHelper->sqlUpdate('UPDATE le_Membe...')
+#3 B:\phpProject\yiicommon\system\models\LeActionDB.php(152): system\models\LeActionDB->execute_action(Array, '1', '1')
+#4 B:\phpProject\yiicommon\system\logic\LgLeAction.php(22): system\models\LeActionDB->action_log('user_login', 'loginForm', '1', '1')
+#5 B:\phpProject\yiicommon\common\help\function.php(287): system\logic\LgLeAction->action_log('user_login', 'loginForm', '1', '1')
+#6 B:\phpProject\yiicommon\common\models\LoginForm.php(141): action_log('user_login', 'loginForm', '1', '1')
+#7 B:\phpProject\yiicommon\common\models\LoginForm.php(80): common\models\LoginForm->reglogin('1')
+#8 B:\phpProject\yiicommon\backend\controllers\PublicController.php(39): common\models\LoginForm->login(Array)
+#9 [internal function]: backend\controllers\PublicController->actionLogin()
+#10 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#13 B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('public/login', Array)
+#14 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 B:\phpProject\yiicommon\backend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiicommon.le_Member' doesn't exist
+The SQL being executed was: UPDATE le_Member SET score=score+10 WHERE uid=1 AND status>-1' in B:\phpProject\yiicommon\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 B:\phpProject\yiicommon\vendor\yiisoft\yii2\db\Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'UPDATE le_Membe...')
+#1 B:\phpProject\yiicommon\common\help\DBHelper.php(183): yii\db\Command->execute()
+#2 B:\phpProject\yiicommon\system\models\LeActionDB.php(236): common\help\DBHelper->sqlUpdate('UPDATE le_Membe...')
+#3 B:\phpProject\yiicommon\system\models\LeActionDB.php(152): system\models\LeActionDB->execute_action(Array, '1', '1')
+#4 B:\phpProject\yiicommon\system\logic\LgLeAction.php(22): system\models\LeActionDB->action_log('user_login', 'loginForm', '1', '1')
+#5 B:\phpProject\yiicommon\common\help\function.php(287): system\logic\LgLeAction->action_log('user_login', 'loginForm', '1', '1')
+#6 B:\phpProject\yiicommon\common\models\LoginForm.php(141): action_log('user_login', 'loginForm', '1', '1')
+#7 B:\phpProject\yiicommon\common\models\LoginForm.php(80): common\models\LoginForm->reglogin('1')
+#8 B:\phpProject\yiicommon\backend\controllers\PublicController.php(39): common\models\LoginForm->login(Array)
+#9 [internal function]: backend\controllers\PublicController->actionLogin()
+#10 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#13 B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('public/login', Array)
+#14 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 B:\phpProject\yiicommon\backend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yiicommon.le_Member' doesn't exist
+)
+
+2016-02-17 06:53:07 [::1][-][-][info][application] $_POST = [
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => 'sadamu'
+        'verifyCode' => '2905'
+    ]
+]
+
+$_COOKIE = [
+    'f04a_2132_saltkey' => 'oTME63pz'
+    'f04a_2132_lastvisit' => '1453356127'
+    'f04a_2132_ulastactivity' => 'db8ebRnKnr1fKO5D5JhAV3/QSj5ErbKENvMX34HYsJNsYlBh9nxU'
+    'PHPSESSID' => 'vusurba6u1ju9lu1g5fe56mcv5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/public/captcha' => '9a4i'
+    '__captcha/public/captchacount' => 1
+    'user_auth' => [
+        'id' => '1'
+        'username' => 'admin'
+        'password' => '2cdc554c6af27094df66d9a64c90a856'
+        'email' => '10645760151@qq.com'
+        'mobile' => ''
+        'reg_time' => '1446705468'
+        'reg_ip' => '0'
+        'last_login_time' => '1448068434'
+        'last_login_ip' => '0'
+        'update_time' => '1446705468'
+        'is_check' => '0'
+        'status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '91'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8084'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8084/backend/web/public/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'f04a_2132_saltkey=oTME63pz; f04a_2132_lastvisit=1453356127; f04a_2132_ulastactivity=db8ebRnKnr1fKO5D5JhAV3%2FQSj5ErbKENvMX34HYsJNsYlBh9nxU; PHPSESSID=vusurba6u1ju9lu1g5fe56mcv5'
+    'PATH' => 'D:\\java\\bin锛汣:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;C:\\Program Files\\TortoiseGit\\bin;F:\\nodejs\\;F:\\nodejs\\node_modules;D:\\wamp\\bin\\php\\php5.5.12;D:\\jdk\\lib;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'B:/phpProject/yiicommon/backend/web/index.php'
+    'REMOTE_PORT' => '53464'
+    'REDIRECT_URL' => '/backend/web/public/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/public/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455688387.87
+    'REQUEST_TIME' => 1455688387
+]
+2016-02-17 07:07:08 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiicommon.le_Member' doesn't exist' in B:\phpProject\yiicommon\vendor\yiisoft\yii2\db\Command.php:768
+Stack trace:
+#0 B:\phpProject\yiicommon\vendor\yiisoft\yii2\db\Command.php(768): PDOStatement->execute()
+#1 B:\phpProject\yiicommon\common\help\DBHelper.php(183): yii\db\Command->execute()
+#2 B:\phpProject\yiicommon\system\models\LeActionDB.php(236): common\help\DBHelper->sqlUpdate('UPDATE le_Membe...')
+#3 B:\phpProject\yiicommon\system\models\LeActionDB.php(152): system\models\LeActionDB->execute_action(Array, '1', '1')
+#4 B:\phpProject\yiicommon\system\logic\LgLeAction.php(22): system\models\LeActionDB->action_log('user_login', 'loginForm', '1', '1')
+#5 B:\phpProject\yiicommon\common\help\function.php(287): system\logic\LgLeAction->action_log('user_login', 'loginForm', '1', '1')
+#6 B:\phpProject\yiicommon\common\models\LoginForm.php(141): action_log('user_login', 'loginForm', '1', '1')
+#7 B:\phpProject\yiicommon\common\models\LoginForm.php(80): common\models\LoginForm->reglogin('1')
+#8 B:\phpProject\yiicommon\backend\controllers\PublicController.php(39): common\models\LoginForm->login(Array)
+#9 [internal function]: backend\controllers\PublicController->actionLogin()
+#10 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#13 B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('public/login', Array)
+#14 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 B:\phpProject\yiicommon\backend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiicommon.le_Member' doesn't exist
+The SQL being executed was: UPDATE le_Member SET score=score+10 WHERE uid=1 AND status>-1' in B:\phpProject\yiicommon\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 B:\phpProject\yiicommon\vendor\yiisoft\yii2\db\Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'UPDATE le_Membe...')
+#1 B:\phpProject\yiicommon\common\help\DBHelper.php(183): yii\db\Command->execute()
+#2 B:\phpProject\yiicommon\system\models\LeActionDB.php(236): common\help\DBHelper->sqlUpdate('UPDATE le_Membe...')
+#3 B:\phpProject\yiicommon\system\models\LeActionDB.php(152): system\models\LeActionDB->execute_action(Array, '1', '1')
+#4 B:\phpProject\yiicommon\system\logic\LgLeAction.php(22): system\models\LeActionDB->action_log('user_login', 'loginForm', '1', '1')
+#5 B:\phpProject\yiicommon\common\help\function.php(287): system\logic\LgLeAction->action_log('user_login', 'loginForm', '1', '1')
+#6 B:\phpProject\yiicommon\common\models\LoginForm.php(141): action_log('user_login', 'loginForm', '1', '1')
+#7 B:\phpProject\yiicommon\common\models\LoginForm.php(80): common\models\LoginForm->reglogin('1')
+#8 B:\phpProject\yiicommon\backend\controllers\PublicController.php(39): common\models\LoginForm->login(Array)
+#9 [internal function]: backend\controllers\PublicController->actionLogin()
+#10 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#13 B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('public/login', Array)
+#14 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 B:\phpProject\yiicommon\backend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yiicommon.le_Member' doesn't exist
+)
+
+2016-02-17 07:07:08 [::1][-][-][info][application] $_POST = [
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => 'sadamu'
+        'verifyCode' => '8u2u'
+    ]
+]
+
+$_COOKIE = [
+    'f04a_2132_saltkey' => 'oTME63pz'
+    'f04a_2132_lastvisit' => '1453356127'
+    'f04a_2132_ulastactivity' => 'db8ebRnKnr1fKO5D5JhAV3/QSj5ErbKENvMX34HYsJNsYlBh9nxU'
+    'PHPSESSID' => 'vusurba6u1ju9lu1g5fe56mcv5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/public/captcha' => '833u'
+    '__captcha/public/captchacount' => 1
+    'user_auth' => [
+        'id' => '1'
+        'username' => 'admin'
+        'password' => '2cdc554c6af27094df66d9a64c90a856'
+        'email' => '10645760151@qq.com'
+        'mobile' => ''
+        'reg_time' => '1446705468'
+        'reg_ip' => '0'
+        'last_login_time' => '1448068434'
+        'last_login_ip' => '0'
+        'update_time' => '1446705468'
+        'is_check' => '0'
+        'status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '91'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8084'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8084/backend/web/public/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'f04a_2132_saltkey=oTME63pz; f04a_2132_lastvisit=1453356127; f04a_2132_ulastactivity=db8ebRnKnr1fKO5D5JhAV3%2FQSj5ErbKENvMX34HYsJNsYlBh9nxU; PHPSESSID=vusurba6u1ju9lu1g5fe56mcv5'
+    'PATH' => 'D:\\java\\bin锛汣:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;C:\\Program Files\\TortoiseGit\\bin;F:\\nodejs\\;F:\\nodejs\\node_modules;D:\\wamp\\bin\\php\\php5.5.12;D:\\jdk\\lib;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'B:/phpProject/yiicommon/backend/web/index.php'
+    'REMOTE_PORT' => '53556'
+    'REDIRECT_URL' => '/backend/web/public/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/public/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455689228.747
+    'REQUEST_TIME' => 1455689228
+]
+2016-02-17 08:32:27 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 B:\phpProject\yiicommon\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2016-02-17 08:32:26 [::1][-][-][info][application] $_COOKIE = [
+    'f04a_2132_saltkey' => 'oTME63pz'
+    'f04a_2132_lastvisit' => '1453356127'
+    'f04a_2132_ulastactivity' => 'db8ebRnKnr1fKO5D5JhAV3/QSj5ErbKENvMX34HYsJNsYlBh9nxU'
+    'PHPSESSID' => 'vusurba6u1ju9lu1g5fe56mcv5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/public/captcha' => '4315'
+    '__captcha/public/captchacount' => 1
+    'user_auth' => [
+        'id' => '1'
+        'username' => 'admin'
+        'password' => '2cdc554c6af27094df66d9a64c90a856'
+        'email' => '10645760151@qq.com'
+        'mobile' => ''
+        'reg_time' => '1446705468'
+        'reg_ip' => '0'
+        'last_login_time' => '1448068434'
+        'last_login_ip' => '0'
+        'update_time' => '1446705468'
+        'is_check' => '0'
+        'status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8084/backend/web/css/style.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'f04a_2132_saltkey=oTME63pz; f04a_2132_lastvisit=1453356127; f04a_2132_ulastactivity=db8ebRnKnr1fKO5D5JhAV3%2FQSj5ErbKENvMX34HYsJNsYlBh9nxU; PHPSESSID=vusurba6u1ju9lu1g5fe56mcv5'
+    'PATH' => 'D:\\java\\bin锛汣:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;C:\\Program Files\\TortoiseGit\\bin;F:\\nodejs\\;F:\\nodejs\\node_modules;D:\\wamp\\bin\\php\\php5.5.12;D:\\jdk\\lib;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'B:/phpProject/yiicommon/backend/web/index.php'
+    'REMOTE_PORT' => '54094'
+    'REDIRECT_URL' => '/backend/web/images/bg/bg.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/images/bg/bg.png'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455694346.901
+    'REQUEST_TIME' => 1455694346
+]
+2016-02-17 08:35:25 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 B:\phpProject\yiicommon\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 B:\phpProject\yiicommon\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 B:\phpProject\yiicommon\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2016-02-17 08:35:25 [::1][-][-][info][application] $_COOKIE = [
+    'f04a_2132_saltkey' => 'oTME63pz'
+    'f04a_2132_lastvisit' => '1453356127'
+    'f04a_2132_ulastactivity' => 'db8ebRnKnr1fKO5D5JhAV3/QSj5ErbKENvMX34HYsJNsYlBh9nxU'
+    'PHPSESSID' => 'vusurba6u1ju9lu1g5fe56mcv5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/public/captcha' => '3a18'
+    '__captcha/public/captchacount' => 1
+    'user_auth' => [
+        'id' => '1'
+        'username' => 'admin'
+        'password' => '2cdc554c6af27094df66d9a64c90a856'
+        'email' => '10645760151@qq.com'
+        'mobile' => ''
+        'reg_time' => '1446705468'
+        'reg_ip' => '0'
+        'last_login_time' => '1448068434'
+        'last_login_ip' => '0'
+        'update_time' => '1446705468'
+        'is_check' => '0'
+        'status' => '1'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8084'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8084/backend/web/css/style.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'f04a_2132_saltkey=oTME63pz; f04a_2132_lastvisit=1453356127; f04a_2132_ulastactivity=db8ebRnKnr1fKO5D5JhAV3%2FQSj5ErbKENvMX34HYsJNsYlBh9nxU; PHPSESSID=vusurba6u1ju9lu1g5fe56mcv5'
+    'PATH' => 'D:\\java\\bin锛汣:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;C:\\Program Files (x86)\\Lenovo\\Lenovo Home\\;C:\\Program Files\\TortoiseGit\\bin;F:\\nodejs\\;F:\\nodejs\\node_modules;D:\\wamp\\bin\\php\\php5.5.12;D:\\jdk\\lib;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8084</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8084'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'B:/phpProject/yiicommon'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'B:/phpProject/yiicommon/backend/web/index.php'
+    'REMOTE_PORT' => '54205'
+    'REDIRECT_URL' => '/backend/web/images/bg/bg.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/images/bg/bg.png'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455694525.619
+    'REQUEST_TIME' => 1455694525
+]

@@ -15,7 +15,6 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="tab-wrap">
         <ul class="tab-nav nav">
             <li class="current"><a href="javascript:;">访问授权</a></li>
-            <li><a href="<?=U('authManager/category?group_name='.\common\help\HTMLHelper::_GET('group_name').'&group_id='.\common\help\HTMLHelper::_GET('group_id').'')?>">分类授权</a></li>
             <li><a href="<?=Yii::$app->homeUrl.'authmanager/user?group_name='.$_GET['group_name'].'&group_id='.$_GET['group_id']?>">成员授权</a></li>
             <li class="fr">
                 <select name="group">
